@@ -1,0 +1,126 @@
+
+@media only screen and (max-width:1200px)
+{
+    .hero-text-box
+    {
+    font-size:90%;
+    margin-left:5%;    
+    width: 90%;
+    padding: 0 0.2%;
+   }
+    .row
+    {
+        width: 90%;
+    }
+    nav
+    {
+    margin-left:5%;
+    margin-right:5%;
+    }
+    @media only screen and (max-width:1047px)
+  {
+    .span-1-of-4 {
+        width: 45%; 
+    }
+  }
+  .plan-price
+{
+font-size: 250%;
+}
+@media only screen and (max-width:1023px)
+{
+    .hero-text-box
+    {
+    font-size:90%;
+    width: 90%;
+    padding: 0 0.4%;
+   }
+   .big-box
+   {
+       margin-left:10%;
+   }
+   .city-box
+   {
+    margin-left:15%;
+    margin-right:10%;
+   }
+    .row
+    {
+        padding:0 0.4%;
+    }
+.plan-price
+{
+font-size: 200%;
+}
+.span-1-of-3 {
+    width: 49%;
+}
+
+
+}@media only screen and (max-width:797px)
+{
+    
+    .hero-text-box
+    {
+    width: 90%;
+    padding: 0 0.4%;
+    font-size:70%;
+   }
+    .row
+    {
+        padding:0 0.4%;
+    }
+    nav
+    {
+    font-size:60%;
+    margin-left:5%;
+    margin-right:5%;
+    }
+}
+@media only screen and (max-width:797px)
+{
+    .main-nav
+{
+    display:none;
+}
+    .span-1-of-4 
+    {
+        width: 60%; 
+    }
+    .span-1-of-3 
+    {
+        width: 60%; 
+    }
+    .section-steps-box .span-1-of-2
+    {
+        width: 100%; 
+    }
+   
+   
+    
+}
+@media only screen and (max-width:480px)
+{
+.main-nav
+{
+    display:none;
+}
+.span-1-of-4 
+{
+    width: 60%; 
+}
+.span-1-of-3  
+{
+    width: 60%; 
+} 
+.form-section .span-1-of-3
+{
+width: 49%;
+} 
+.section-steps-box .span-1-of-2
+    {
+        width: 60%; 
+    }
+   
+}
+    @

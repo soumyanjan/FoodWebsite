@@ -193,17 +193,26 @@ margin-bottom: 30px;
 .section-features
 {
 text-align:justify ;
-margin:100px ;
+margin-top:100px ;
+margin-bottom:100px ;
+
+}
+.big-box
+{
+
+    
 }
 .box 
 {
+ 
 padding: 2%;
-border: 2px solid #e67e22;
+border: 2px solid #fff;
 border-radius: 45px;
 
 }
 .box p
 {
+    
 font-size: 90%;
 line-height: 145%;
 padding: 2%;
@@ -238,11 +247,17 @@ width: 25%;
     height: auto;
     transform: scale(1.5);
     transition: transform 0.5x ;
+    transition: 100ms;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .meal-photo img:hover
 {
     opacity: 1.5;
     transform: scale(1);
+   
 }
 .section-steps
 {
@@ -333,6 +348,7 @@ margin-right: 10%;
     padding-left: 2px solid #fff;
     margin-left: 4px;
 }
+
 .section-costumers
 {
    margin-bottom: 100px;
@@ -384,6 +400,7 @@ margin-top: 5px;
    margin-bottom: 10%;
    border-bottom: 20px solid #fff;
    box-shadow: 0 2px 2px rgb(165, 165, 165);
+   padding: 20px;
 }
 .plan-box-div
 {
@@ -475,5 +492,4 @@ footer p
     text-align: center;
     font-size: 90%;
     margin-top: 30px;
-
 }
